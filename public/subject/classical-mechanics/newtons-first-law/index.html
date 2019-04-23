@@ -1,0 +1,344 @@
+<!DOCTYPE html><html>
+
+<head>
+  <!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newton&#39;s First Law | Physics Capsule</title>
+
+
+
+
+<link rel="stylesheet" href="/book.min.02a0c4764c70a2dd914e352b9ffacb9a83e2eb8224312d09448b14cf04d91d04.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png?v=Gvk0gJ3dOj">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png?v=Gvk0gJ3dOj">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png?v=Gvk0gJ3dOj">
+<link rel="manifest" href="/static/favicons/manifest.json?v=Gvk0gJ3dOj">
+<link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg?v=Gvk0gJ3dOj" color="#de0303">
+<link rel="shortcut icon" href="/static/favicons/favicon.ico?v=Gvk0gJ3dOj">
+<meta name="msapplication-config" content="/static/favicons/browserconfig.xml?v=Gvk0gJ3dOj">
+<meta name="theme-color" content="#de0303">
+  <script type="text/x-mathjax-config">
+var font = "Gyre-Pagella";
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js", "enclose.js"] },
+	Macros: {  
+          ham: "{\\mathscr{H}}",
+          lag: "{\\mathscr{L}}",
+          kam: "{\\mathscr{K}}",
+          d: "{\\textrm{d}}"
+      },
+  },
+	"SVG":{ 
+		font:font
+	},
+	"HTML-CSS": {
+		webFont: font,
+		imageFont: font,
+		preferredFont: font,
+		availableFonts: [],
+		scale: 95,
+		linebreaks: { automatic: true, width: "article" },
+		mtextFontInherit: true
+	}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body class="subject">
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://physicscapsule.com/">Physics Capsule</a>
+</h2>
+
+
+
+    
+  
+  
+
+  <style>
+  nav ul a[href$="\2fsubject\2f classical-mechanics\2fnewtons-first-law\2f "] {
+      color: #de0303;
+  }
+  </style>
+  <ul class="listing">
+<li class="entries"><strong>Classical mechanics</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/classical-mechanics/newtons-first-law/">Newton&rsquo;s first law</a></li>
+<li class="entries"><a href="/subject/classical-mechanics/newtons-second-law/">Newton&rsquo;s second law</a></li>
+<li class="entries"><a href="/subject/classical-mechanics/jacobi-identity-poisson-brackets/">Jacobi identity</a></li>
+</ul></li>
+<li class="entries"><strong>Quantum mechanics</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/quantum-mechanics/classical-vs-quantum-states/">Classical vs quantum states</a></li>
+</ul></li>
+<li class="entries"><strong>Relativity</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/relativity/parallel-transport-geodesics/">Parallel transport and geodesics</a></li>
+</ul></li>
+<li class="entries"><strong>Condensed matter physics</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/condensed-matter-physics/miller-indices/">Miller indices</a></li>
+</ul></li>
+<li class="entries"><strong>Editorial</strong></li>
+</ul>
+
+
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Newton&#39;s First Law</strong>
+</header>
+
+      
+<article class="markdown">
+	<h1 class="title">Newton&#39;s First Law</h1>
+
+<h1 id="newton-s-first-law-of-motion">Newton&rsquo;s first law of motion</h1>
+
+<p>To many, Newton&rsquo;s three famous laws seem too trivial to be iconic. Yet, these form the basis of physics applicable in everyday life—often termed <strong><em>classical physics</em></strong><sup class="footnote-ref" id="fnref:2"><a href="#fn:2">1</a></sup>. The key factor one needs to understand here is why these laws are important from a historic perspective: they signify one of the earliest applications of mathematics to studying the physical world and they stand as one of the earliest examples of a scientific approach taken to answer a question.</p>
+
+<p>These three laws speak about the world around us; specifically they describe how things move—the <strong><em>dynamics</em></strong> of a body. In this article, we will be taking a look at Newton&rsquo;s first law.</p>
+
+<h1 id="statement-of-the-law">Statement of the law</h1>
+
+<p>Newton&rsquo;s first law describes inertial frames of reference by asserting their existence. This is why it is also known as the <strong><em>law of inertia</em></strong>. However, this definition is not clear outwardly from the statement of the law:</p>
+
+<blockquote>
+<p>An object at rest stays at rest, and an object in motion remains in motion with a uniform velocity, unless acted upon by an unbalanced force.</p>
+</blockquote>
+
+<p>We can split the law into three clauses:</p>
+
+<ol>
+<li>An object at rest remains at rest</li>
+<li>An object in motion remains in motion at a constant speed, in a constant direction</li>
+<li>The states of rest or motion are disrupted only by an unbalanced force</li>
+</ol>
+
+<p>An <strong><em>unbalanced force</em></strong> is one with no neutralising effect. For instance, a force of $ x $ units northwards needs a force of $ x $ units southwards—or perhaps two forces of $ (x/\sqrt{2}) $ units each, one southeastwards and one southwestwards, and so on—to balance it out. Should such balancing forces not exist, we call the existing force an unbalanced force.</p>
+
+<h1 id="outcomes-of-the-law">Outcomes of the law</h1>
+
+<h2 id="inertia">Inertia</h2>
+
+<p>All this tells us about the habit of things in our universe is that they adamantly remain in their present state. More scientifically, this tells us how an object prefers to retain its state of rest or motion so long as some unbalanced force does not disturb it. This preference, or resistance of an object to any change in its state of rest or motion is termed <strong><em>inertia</em></strong>.</p>
+
+<p>This was a powerful idea because in Newton&rsquo;s time it was largely believed that objects preferred to come to rest. Nobody bothered about a force like friction that they could not &lsquo;see&rsquo;, so to speak<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">2</a></sup>.</p>
+
+<h2 id="friction">Friction</h2>
+
+<p>However, the idea of <strong><em>friction</em></strong> must rightly be attributed to Galileo who believed that such a force existed and worked towards bringing moving things to rest. It is interesting how Galileo arrived at his idea <strong><em>empirically</em></strong>, i.e. using experiments rather than a logical thought process.</p>
+
+<figure>
+    <img src="galileo-experiment-1-3.png"
+         alt="Fig. 1: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A."/> <figcaption>
+            <h4>Galileo&#39;s experiment</h4><p>Fig. 1: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A.</p>
+        </figcaption>
+</figure>
+
+
+<p>From fig. 1 it is clear that an object released at position A on some container would reach position B at the same height as A — under ideal circumstances. Galileo observed as much.</p>
+
+<figure>
+    <img src="galileo-experiment-2-3.png"
+         alt="Galileo&#39;s experiment"/> <figcaption>
+            <p>Fig. 1: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A.</p>
+        </figcaption>
+</figure>
+
+
+<p>As in fig. 2, Galileo modified his experiment and found that this height would be reached regardless of the angle of inclination, i.e. no matter how wide or narrow the container got or how asymmetric his set-up was.</p>
+
+<figure>
+    <img src="galileo-experiment-3-3.png"
+         alt="Galileo&#39;s experiment"/> <figcaption>
+            <p>Fig. 3: Logic dictates then that in this case the ball must keep traveling—perhaps infinitely—until it reaches the same height as A, yet we know from experience that the ball will eventually come to a halt. Why?</p>
+        </figcaption>
+</figure>
+
+
+<p>Finally, in fig. 3, the genius of Galileo shows: he reasoned that if the angle was a full 180 degrees, meaning that if the slope never brought the object up to its initial position, the object should keep moving, never being able to attain its desired height. Unsurprisingly he found the object does stop. So, he reasoned, there must be some unseen force in whose nature it is to stop moving objects. This is the force we now call friction.</p>
+
+<p>However, Galileo&rsquo;s idea was rudimentary. We know today that the reason you can walk, putting one step before the other and not slipping every time, is because friction prevents your feet from slipping. In essence friction helps you walk; what it prevents is any sort of motion (the slippage) between the ground and your feet.</p>
+
+<p>So, in the case of a ball that is rolling on the ground friction brings it to rest and, in the case of your feet about to slip, friction keeps it at rest. It can be tempting to conclude, not unlike Galileo, that friction prevents motion but the idea goes a little deeper: what friction prevents is relative motion; it stops relative motion between the ball and the ground and prevents it altogether between your feet and the ground. This is the real nature of friction:</p>
+
+<blockquote>
+<p>Friction is a force that attempts to prevent any relative motion between two bodies.</p>
+</blockquote>
+
+<p>With this we come to the final outcome of Newton&rsquo;s powerful first law.</p>
+
+<h1 id="mass">Mass</h1>
+
+<p>Think of the individuality of an object: do some objects have more inertia than others? In other words, do some have a greater preference to remain at rest or motion? The answer is simply that they do, and this degree of preference that an object has to remain at its present state is given the term mass. Mass is also defined, when more convenient, as the amount of matter contained in a body; but it is more scientifically described as the measure of the tendency of an object to oppose a change in its state of rest or motion.</p>
+
+<p>Suppose a force $ \mathbf{F} $ causes a body to accelerate at the rate $ \mathbf{a} $. Newton&rsquo;s first law tells us that the greater the force is the greater the acceleration is and vice versa. This is why when $ \mathbf{F} = 0 $ for a body $ \mathbf{a} = 0 $ too. Subsequently,</p>
+
+<div>
+$$
+\begin{align*}
+\mathbf{F} &\propto \mathbf{a} \nonumber \\[.5em]
+\implies \mathbf{F} &= m \mathbf{a} \tag{1} \label{eq:F=ma} 
+\end{align*}
+$$
+</div>
+
+<p>where $ m $ is a proportionality constant known as the <em>inertial mass</em> of the object in question.</p>
+
+<p>What eq. $ \eqref{eq:F=ma} $ tells us is that the more massive an object the greater is the force required to reduce its relative motion, when the acceleration remains constant. Alternatively, if two bodies are being accelerated at the same rate more force would be needed to bring the more massive one to relative rest. In other words <strong><em>mass</em></strong> is the measure of inertia of an object.</p>
+
+<h1 id="inertial-frames-of-reference">Inertial frames of reference</h1>
+
+<p>Now there is a catch to this law. Consider a bowling ball rolling along a polished wooden floor on a ship. The ball keeps rolling until some force stops it. This force could be friction with the floor, collision with a wall etc. Assuming the floor is perfectly polished (frictionless) we realise that the ball keeps moving at a uniform velocity.</p>
+
+<p>Suppose the ship (and hence the entire room) was accelerating away from some point, then the bowling ball would, with respect to that point, no longer have a constant velocity, not because of any force—in fact there is no force involved at all—but because of a change in speed due to acceleration, thereby rendering Newton&rsquo;s law invalid.</p>
+
+<p>It is important to note, therefore, that the fact that this law can be experimentally verified tells us that frames of reference exist (such as our bowling room in the last example) wherein this law remains true. Such frames are called <strong><em>inertial frames of reference</em></strong> and hence this law is sometimes also called the <strong><em>law of inertia</em></strong>. Frames where this law does not apply are called <strong><em>non-inertial reference frames</em></strong>.</p>
+
+<p>The law of inertia has a huge number of experimental verifications in daily life. Consider the way you fall forwards or backwards when a car brakes to a halt or accelerates at a traffic light. That is due to inertia, when your body would rather remain moving forwards than slow to a halt, or vice versa.</p>
+
+<p>It is for the same reason that you would have a nasty fall if you let go of a fast-moving swing in the park. Although the fall and the path you take before your face hits the ground are governed by other forces, what makes you leave the swing and fly into the air is inertia.</p>
+
+<p>Although not direct, the ideas that this law introduces go on to become pivotal in framing physics. From rotational dynamics to cosmology, the concepts of mass and inertia play a key role almost everywhere.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:2">This is physics that works at everyday speeds for macroscopic objects.
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:1">It is no surprise that Newton hit upon inertia which was essentially an &lsquo;invisible&rsquo; force. In fact he more famously talked about another invisible force, gravity, further in his career.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+</article>
+<div class="lastMod">
+	 By&nbsp;V.H. Belvadi<br> 
+</div>
+
+      
+<div class="align-center book-git-footer justify-end">
+  
+  
+	<div class="footer-copyright">
+		&copy; 2014–2019 Physics Capsule. All Rights Reserved.
+	</div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#newton-s-first-law-of-motion">Newton&rsquo;s first law of motion</a></li>
+<li><a href="#statement-of-the-law">Statement of the law</a></li>
+<li><a href="#outcomes-of-the-law">Outcomes of the law</a>
+<ul>
+<li><a href="#inertia">Inertia</a></li>
+<li><a href="#friction">Friction</a></li>
+</ul></li>
+<li><a href="#mass">Mass</a></li>
+<li><a href="#inertial-frames-of-reference">Inertial frames of reference</a></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+$(document).ready(function() {
+    $('.book-menu ul li.entries').click(function(e) {
+      $('.book-menu ul li ul.listing').slideUp();
+      $(this).children('.book-menu ul li ul.listing').slideDown();
+    });
+
+
+
+
+
+});
+</script>
+  
+</body>
+
+</html>

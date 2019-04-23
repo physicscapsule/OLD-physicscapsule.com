@@ -1,0 +1,308 @@
+<!DOCTYPE html><html>
+
+<head>
+  <!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newton&#39;s Second Law | Physics Capsule</title>
+
+
+
+
+<link rel="stylesheet" href="/book.min.02a0c4764c70a2dd914e352b9ffacb9a83e2eb8224312d09448b14cf04d91d04.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png?v=Gvk0gJ3dOj">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png?v=Gvk0gJ3dOj">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png?v=Gvk0gJ3dOj">
+<link rel="manifest" href="/static/favicons/manifest.json?v=Gvk0gJ3dOj">
+<link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg?v=Gvk0gJ3dOj" color="#de0303">
+<link rel="shortcut icon" href="/static/favicons/favicon.ico?v=Gvk0gJ3dOj">
+<meta name="msapplication-config" content="/static/favicons/browserconfig.xml?v=Gvk0gJ3dOj">
+<meta name="theme-color" content="#de0303">
+  <script type="text/x-mathjax-config">
+var font = "Gyre-Pagella";
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js", "enclose.js"] },
+	Macros: {  
+          ham: "{\\mathscr{H}}",
+          lag: "{\\mathscr{L}}",
+          kam: "{\\mathscr{K}}",
+          d: "{\\textrm{d}}"
+      },
+  },
+	"SVG":{ 
+		font:font
+	},
+	"HTML-CSS": {
+		webFont: font,
+		imageFont: font,
+		preferredFont: font,
+		availableFonts: [],
+		scale: 95,
+		linebreaks: { automatic: true, width: "article" },
+		mtextFontInherit: true
+	}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body class="subject">
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://physicscapsule.com/">Physics Capsule</a>
+</h2>
+
+
+
+    
+  
+  
+
+  <style>
+  nav ul a[href$="\2fsubject\2f classical-mechanics\2fnewtons-second-law\2f "] {
+      color: #de0303;
+  }
+  </style>
+  <ul class="listing">
+<li class="entries"><strong>Classical mechanics</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/classical-mechanics/newtons-first-law/">Newton&rsquo;s first law</a></li>
+<li class="entries"><a href="/subject/classical-mechanics/newtons-second-law/">Newton&rsquo;s second law</a></li>
+<li class="entries"><a href="/subject/classical-mechanics/jacobi-identity-poisson-brackets/">Jacobi identity</a></li>
+</ul></li>
+<li class="entries"><strong>Quantum mechanics</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/quantum-mechanics/classical-vs-quantum-states/">Classical vs quantum states</a></li>
+</ul></li>
+<li class="entries"><strong>Relativity</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/relativity/parallel-transport-geodesics/">Parallel transport and geodesics</a></li>
+</ul></li>
+<li class="entries"><strong>Condensed matter physics</strong>
+
+<ul class="listing">
+<li class="entries"><a href="/subject/condensed-matter-physics/miller-indices/">Miller indices</a></li>
+</ul></li>
+<li class="entries"><strong>Editorial</strong></li>
+</ul>
+
+
+<script>
+(function() {
+  var menu = document.querySelector('aside.book-menu nav')
+  addEventListener('beforeunload', function(event) {
+    localStorage.setItem('menu.scrollTop', menu.scrollTop)
+  });
+
+  menu.scrollTop = localStorage.getItem('menu.scrollTop')
+})()
+</script>
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Newton&#39;s Second Law</strong>
+</header>
+
+      
+<article class="markdown">
+	<h1 class="title">Newton&#39;s Second Law</h1>
+
+<h1 id="newton-s-second-law">Newton&rsquo;s second law</h1>
+
+<p>We previously discussed how <a href="/mechanics/newton-first-law-mass-inertia">Newton&rsquo;s first law</a> introduces the concepts of (index: Inertia) and (index: Mass). This law too follows similar steps and—instead of continued rest or motion in the presence of net balanced forces—talks of what happens when the forces acting on an object are unbalanced.</p>
+
+<p>Newton&rsquo;s second law can be stated in two ways, each as important as the other because of the different ideas they give rise to: acceleration and momentum. In terms of acceleration, the law finds its simplest form. It talks of how a force causes a body to experience acceleration.</p>
+
+<blockquote>
+<p>The net force acting on a body produces a proportional acceleration.</p>
+</blockquote>
+
+<p>Note that with both force and acceleration being vector quantities the word &lsquo;proportional&rsquo; refers to consistent change in both direction and magnitude between the two quantities. However, as we will quickly see, Newton&rsquo;s second law as stated above is really a derived form of the original statement, based on momentum, which says —</p>
+
+<blockquote>
+<p>The net force on an object is equal to and in the direction of the rate of change of its linear momentum.</p>
+</blockquote>
+
+<p>The two forms of this law are extremely similar in spirit. This arises mainly as a result of Newton&rsquo;s laws (and all of classical mechanics) being built around systems with constant mass, i.e. within a given situation and for any length of time, with all other parameters being equal, the mass of an object remains unchanged. It is worth noting that any change occurs in terms of weight (a force) as a result of a varying rate of gravitational acceleration, but never in terms of mass.</p>
+
+<h1 id="momentum">Momentum</h1>
+
+<p>Although we saw the acceleration definiton first, we will be looking at the second form given its mathematical universality. (The first form, that of acceleration, can be derived from it as we will see later.)</p>
+
+<p>Let us call our force F, our object&rsquo;s mass m and let us assume it moves as a result of this force (see <a href="/newton-first-law-mass-inertia">Newton&rsquo;s first law</a>) proportional to a velocity v. It is important to understand why we use the term proportional: the body actually accelerates, as we will see, hence its motion will be an acceleration of, say, a, proportional to its velocity v, i.e. as velocity increases, so does its acceleration and vice versa.</p>
+
+<figure>
+    <img src="newton-second-law.png"
+         alt="A force $ \vec{F} $ acting on a mass m and causing it to accelerate at $ \vec{a} $."/> <figcaption>
+            <p>A force $ \vec{F} $ acting on a mass m and causing it to accelerate at $ \vec{a} $.</p>
+        </figcaption>
+</figure>
+
+
+<p>Then, following the second form of the law stated above, we realise that the momentum, $p$, of this body, defined as a product of its mass and velocity at any time t, is proportional to the force. In other words, we know the definition of linear momentum as, $$\begin{equation}\mathbf{P}=\mathit{m}\mathbf{v}\label{eq:Pmv}\end{equation} $$</p>
+
+<p>In exactness, the rate of change of this momentum (i.e. its derivative) is equal to the force applied. And when we say equal, the force and momentum being vectors, we also refer to their common direction.</p>
+
+<p>Mathematically, we could write them as, $$ \begin{align*} \mathbf{F} = \frac{\textrm{d} \mathbf{P}}{\textrm{d} t} \end{align*}$$</p>
+
+<p>Using eq. $\eqref{eq:Pmv}$ and the constancy of mass in classical mechanics (as previously mentioned) we arrive at, $$ \begin{align*} \mathbf{F} = \frac{\textrm{d} m\mathbf{v}}{\textrm{d} t} = m{\textrm{d}\mathbf{v} \over \textrm{d} t} \end{align*} $$</p>
+
+<p>The rate of change of velocity, v, signified by the derivative on the right hand side, is merely acceleration, a, since $\textrm{d}\mathbf{v}/\textrm{d} t=\mathbf{a}$. $$ \begin{align} \mathbf{F} &amp; = m \mathbf{a} \label{eq:F=ma} \end{align} $$</p>
+
+<p>Equation $\eqref{eq:F=ma}$ is the mathematical form of Newton&rsquo;s second law and establishes an important relationship between F, m and a. Specifically,</p>
+
+<ul>
+<li>The heavier the body, the greater the force needed to accelerate it,</li>
+<li>The greater the force applied, the faster a body accelerates, and,</li>
+<li>The direction in which the body accelerates is the same as the force that accelerates it.</li>
+</ul>
+
+<p>These are important implications of Newton&rsquo;s second law, proven, but which might appear obvious even without the mathematics. Note, however, that F is really $\mathbf{F}_{net}$, the net force acting on the body, which must be a non-zero quantity. If it is zero, the first law comes into picture.</p>
+
+<h1 id="impulse">Impulse</h1>
+
+<p>Closely related to everything we just saw is the concept of impulse — force that acts over some period of time, $\Delta t$. The phrase, &ldquo;over a period of time&rdquo;, signals the need for some integration. Hence, for impulse $J$, we may write, $$\begin{align*} \mathbf{J}=\int^{t=\Delta t}_{t=0} \mathbf{F} d \mathit{t} \end{align*} $$</p>
+
+<p>which reduces to, $$ \begin{equation} \mathbf{J}=\int^{t=\Delta t}_{t=0} \frac{\textrm{d} \mathit{m}\mathbf{v}}{\textrm{d} t} \textrm{d} t = m \textrm{d} \mathbf{v} \end{equation} $$</p>
+
+<p>This gives the concept of an impulse based on Newton&rsquo;s second law.</p>
+
+<p>Alternately, $$ \begin{align*} \mathbf{F} &amp;= m \mathbf{a} \ &amp;= m \frac{d \mathbf{v}}{d t} \ \mathbf{F} d t = \mathbf{J} &amp;= m d \mathbf{v} \end{align*} $$</p>
+
+<p>The $\mathbf{F} \textrm{d} t = m \textrm{d} \mathbf{v}$ form to work on impulses is used more often for its simplicity.</p>
+
+<hr />
+
+<h2 id="rockets-and-other-problems">Rockets and other problems</h2>
+
+<p>One less observed constraint of Newton&rsquo;s second law is variant mass. Although we have said that an object&rsquo;s mass remains constant over time, the mass of systems may change.</p>
+
+<p>An often stated example is rocket propulsion. The error here it to look at a rocket as an object rather than a system. A rocket is really a system with, at the very least, two  masses: the frame and the fuel. Over time as fuel is burnt or segments are ejected the mass of the system (not object) reduces. This is why Newton&rsquo;s second law cannot be applied here.</p>
+
+<p>We can, of course, always apply it as a sum of parts, which would be an indirect method. It would be pretty much the same with all such systems: seed ploughing machines, paint cans being thrown etc.</p>
+
+<h2 id="a-newton-the-unit">A newton—the unit</h2>
+
+<p>Since this second law, unlike the first, actually defines a force $ \mathbf{F} = m  \mathbf{a} $ now would be a good time to talk about the unit of force.</p>
+
+<p>Common sense rightly dictates that the unit of force must be kg m s$^{-1}$, the product of the units of mass and acceleration. However, a special name has been given to that in honour of Newton as the Newton. It may be abbreviated as N, and, since it is the name of a person, has no plural form.</p>
+
+<blockquote>
+<p>A newton is the amount of force required to accelerate a 1 kg mass by 1 ms$^{-2}$.</p>
+</blockquote>
+
+<p>So much for Newton&rsquo;s second law. We find it everywhere: while walking, while driving, while sitting, standing — it is what holds every macroscopic thing on earth, for instance. Next time, we will see Newton&rsquo;s third law.</p>
+</article>
+<div class="lastMod">
+	
+</div>
+
+      
+<div class="align-center book-git-footer justify-end">
+  
+  
+	<div class="footer-copyright">
+		&copy; 2014–2019 Physics Capsule. All Rights Reserved.
+	</div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#newton-s-second-law">Newton&rsquo;s second law</a></li>
+<li><a href="#momentum">Momentum</a></li>
+<li><a href="#impulse">Impulse</a>
+<ul>
+<li><a href="#rockets-and-other-problems">Rockets and other problems</a></li>
+<li><a href="#a-newton-the-unit">A newton—the unit</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+$(document).ready(function() {
+    $('.book-menu ul li.entries').click(function(e) {
+      $('.book-menu ul li ul.listing').slideUp();
+      $(this).children('.book-menu ul li ul.listing').slideDown();
+    });
+
+
+
+
+
+});
+</script>
+  
+</body>
+
+</html>

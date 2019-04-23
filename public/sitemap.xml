@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/classical-mechanics/newtons-first-law/</loc>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/condensed-matter-physics/miller-indices/</loc>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/editorial/second-edition/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/quantum-mechanics/classical-vs-quantum-states/</loc>
+    <lastmod>2019-04-13T22:00:01+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/</loc>
+    <lastmod>2019-04-13T22:00:01+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/</loc>
+    <lastmod>2019-04-13T22:00:01+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/classical-mechanics/jacobi-identity-poisson-brackets/</loc>
+    <lastmod>2019-04-13T10:49:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/classical-mechanics/newtons-second-law/</loc>
+    <lastmod>2019-04-12T14:01:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://physicscapsule.com/subject/relativity/parallel-transport-geodesics/</loc>
+  </url>
+  
+</urlset>

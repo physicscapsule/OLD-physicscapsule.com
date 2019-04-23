@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Physics Capsule on Physics Capsule</title>
+    <link>https://physicscapsule.com/</link>
+    <description>Recent content in Welcome to Physics Capsule on Physics Capsule</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 13 Apr 2019 22:00:01 +0530</lastBuildDate>
+    
+	<atom:link href="https://physicscapsule.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Newton&#39;s First Law</title>
+      <link>https://physicscapsule.com/subject/classical-mechanics/newtons-first-law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/classical-mechanics/newtons-first-law/</guid>
+      <description>Newton&amp;rsquo;s first law of motion To many, Newton&amp;rsquo;s three famous laws seem too trivial to be iconic. Yet, these form the basis of physics applicable in everyday life—often termed classical physics1. The key factor one needs to understand here is why these laws are important from a historic perspective: they signify one of the earliest applications of mathematics to studying the physical world and they stand as one of the earliest examples of a scientific approach taken to answer a question.</description>
+    </item>
+    
+    <item>
+      <title>Miller Indices</title>
+      <link>https://physicscapsule.com/subject/condensed-matter-physics/miller-indices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/condensed-matter-physics/miller-indices/</guid>
+      <description>Reference axes Like with any three-dimensional object we use three reference axes to describe the geometry of a crystal. The choice of these axes is not always arbitrary; rather we choose axes with respect to key geometric properties of the crystal in question, which also means they vary by crystal. For example, for cubic crystals, we simply pick three mutually perpendicular axes, each parallel to one of three pairs of opposite faces on the cube.</description>
+    </item>
+    
+    <item>
+      <title>This is Physics Capsule as a book</title>
+      <link>https://physicscapsule.com/subject/editorial/second-edition/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/editorial/second-edition/</guid>
+      <description>Over three years ago we started Physics Capsule with an idea that had excited us immensely. It took us these three years, however, to fully shape that idea. On the way we have had guest authors, friendly editors, lots of well-wishers and more people than ever giving us suggestions and ideas. We appreciate all of this and we realise that while our intentions with Physics Capsule have undoubtedly changed over the past four years our core purpose is now better defined than ever before.</description>
+    </item>
+    
+    <item>
+      <title>Classical vs Quantum States</title>
+      <link>https://physicscapsule.com/subject/quantum-mechanics/classical-vs-quantum-states/</link>
+      <pubDate>Sat, 13 Apr 2019 22:00:01 +0530</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/quantum-mechanics/classical-vs-quantum-states/</guid>
+      <description>Imagine a hunter quietly sneaking through the bushes in a forest, positions himself carefully and points his loaded rifle straight at a rabbit he just spotted. The rabbit seems to have sensed the imminent threat and stands still with his ears up. Once the hunter pulls the trigger, there&amp;rsquo;s very little time between the bullet leaving the rifle and hitting the rabbit (assuming the aim was good). However short the time, the bullet does take a path in reaching the rabbit.</description>
+    </item>
+    
+    <item>
+      <title>Jacobi Identity Poisson Brackets</title>
+      <link>https://physicscapsule.com/subject/classical-mechanics/jacobi-identity-poisson-brackets/</link>
+      <pubDate>Sat, 13 Apr 2019 10:49:33 +0530</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/classical-mechanics/jacobi-identity-poisson-brackets/</guid>
+      <description>We said in our discussions of Poisson brackets in (chapter: Poisson brackets) that there exists what is called (index: Jacobi?s identity)?see (eq: eqjacobi-identity chapter: Poisson brackets num: 7). We shall attempt to prove this relation in this chapter. Although such well-known books as Herbert Goldstein?s claim that Jacobi?s identity is somewhat hard to prove without rigorous algebra we doubt this is true.
+Further, there is no need to employ custom notations as (some physicists target:_blank)[http://cds.</description>
+    </item>
+    
+    <item>
+      <title>Newton&#39;s Second Law</title>
+      <link>https://physicscapsule.com/subject/classical-mechanics/newtons-second-law/</link>
+      <pubDate>Fri, 12 Apr 2019 14:01:11 +0530</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/classical-mechanics/newtons-second-law/</guid>
+      <description>Newton&amp;rsquo;s second law We previously discussed how Newton&amp;rsquo;s first law introduces the concepts of (index: Inertia) and (index: Mass). This law too follows similar steps and—instead of continued rest or motion in the presence of net balanced forces—talks of what happens when the forces acting on an object are unbalanced.
+Newton&amp;rsquo;s second law can be stated in two ways, each as important as the other because of the different ideas they give rise to: acceleration and momentum.</description>
+    </item>
+    
+    <item>
+      <title>Parallel transport and Geodesics</title>
+      <link>https://physicscapsule.com/subject/relativity/parallel-transport-geodesics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://physicscapsule.com/subject/relativity/parallel-transport-geodesics/</guid>
+      <description>Moving along the curvature of space that is not Cartesian—or flat—is different from moving along flat space. Although we live on a ‘curved’ Earth we tend not to notice this because our movements are governed by the local flatness of the Earth, i.e. the idea that a sufficiently small region on the Earth can be considered perfectly flat.
+If you move across larger regions on the Earth, for example while flying across continents, the familiar flat-space movements do not hold and special movements along curved space come into play.</description>
+    </item>
+    
+  </channel>
+</rss>
