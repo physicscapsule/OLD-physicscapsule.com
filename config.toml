@@ -10,6 +10,9 @@ disablePathToLower = true
 pygmentsStyle = "monokailight"
 pygmentsCodeFences = true
 
+[permalinks]
+  docs = "/subject/:filename/"
+
 [params]
   customCSS = ["custom.css",]
   BookShowToC = true

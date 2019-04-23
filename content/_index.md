@@ -1,6 +1,6 @@
 ---
 title: Welcome to Physics Capsule
-type: subject
+type: docs
 ---
 
 # Welcome to Physics Capsule
