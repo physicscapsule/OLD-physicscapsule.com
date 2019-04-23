@@ -23,7 +23,7 @@ Our aim now is to see how we can use our reference axes to describe, mathematica
 
 Think of a set of three reference axes as shown in the figure below. An arbitrary plane $ ABC $ can be drawn connecting points on the three axes. Let $ OA = a $, $ OB = b $, and $ OC = c $.
 
-{{< figure src="miller-indices.png" title="Reference axes set-up" caption="An arbitrary set of three reference axes along with a pair of crystallographic planes drawn on them." class="left" >}}
+{{< figure src="/images/miller-indices.png" title="Reference axes set-up" caption="An arbitrary set of three reference axes along with a pair of crystallographic planes drawn on them." class="left" >}}
 
 We know that to get to a point $ (X, Y, Z) $ on our plane we need to travel a length of $ X $ along the x-axis, a length of $ Y $ parallel to the Y-axis, and a length $Z$ in the z-direction.
 

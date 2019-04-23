@@ -41,15 +41,15 @@ This was a powerful idea because in Newton's time it was largely believed that o
 
 However, the idea of ***friction*** must rightly be attributed to Galileo who believed that such a force existed and worked towards bringing moving things to rest. It is interesting how Galileo arrived at his idea ***empirically***, i.e. using experiments rather than a logical thought process.
 
-{{< figure src="galileo-experiment-1-3.png" title="Galileo's experiment" caption="Fig. 1: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A." >}}
+{{< figure src="/images/galileo-experiment-1-3.png" title="Galileo's experiment" caption="Fig. 1: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A." >}}
 
 From fig. 1 it is clear that an object released at position A on some container would reach position B at the same height as A — under ideal circumstances. Galileo observed as much.
 
-{{< figure src="galileo-experiment-2-3.png" alt="Galileo's experiment" caption="Fig. 1: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A." >}}
+{{< figure src="/images/galileo-experiment-2-3.png" alt="Galileo's experiment" caption="Fig. 2: All things considered equal a ball released at A goes up to, and no more or less that, B at the same height above ground as A." >}}
 
 As in fig. 2, Galileo modified his experiment and found that this height would be reached regardless of the angle of inclination, i.e. no matter how wide or narrow the container got or how asymmetric his set-up was.
 
-{{<figure caption="Fig. 3: Logic dictates then that in this case the ball must keep traveling—perhaps infinitely—until it reaches the same height as A, yet we know from experience that the ball will eventually come to a halt. Why?" src="galileo-experiment-3-3.png" alt="Galileo's experiment">}}
+{{<figure caption="Fig. 3: Logic dictates then that in this case the ball must keep traveling—perhaps infinitely—until it reaches the same height as A, yet we know from experience that the ball will eventually come to a halt. Why?" src="/images/galileo-experiment-3-3.png" alt="Galileo's experiment">}}
 
 Finally, in fig. 3, the genius of Galileo shows: he reasoned that if the angle was a full 180 degrees, meaning that if the slope never brought the object up to its initial position, the object should keep moving, never being able to attain its desired height. Unsurprisingly he found the object does stop. So, he reasoned, there must be some unseen force in whose nature it is to stop moving objects. This is the force we now call friction.
 

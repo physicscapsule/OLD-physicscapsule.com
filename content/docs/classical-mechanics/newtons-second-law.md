@@ -23,7 +23,7 @@ Although we saw the acceleration definiton first, we will be looking at the seco
 
 Let us call our force F, our object's mass m and let us assume it moves as a result of this force (see [Newton's first law](/newton-first-law-mass-inertia)) proportional to a velocity v. It is important to understand why we use the term proportional: the body actually accelerates, as we will see, hence its motion will be an acceleration of, say, a, proportional to its velocity v, i.e. as velocity increases, so does its acceleration and vice versa.
 
-{{<figure caption="A force $ \vec{F} $ acting on a mass m and causing it to accelerate at $ \vec{a} $." src="newton-second-law.png">}}
+{{<figure caption="A force $ \vec{F} $ acting on a mass m and causing it to accelerate at $ \vec{a} $." src="/images/newton-second-law.png">}}
 
 Then, following the second form of the law stated above, we realise that the momentum, $p$, of this body, defined as a product of its mass and velocity at any time t, is proportional to the force. In other words, we know the definition of linear momentum as, $$\begin{equation}\mathbf{P}=\mathit{m}\mathbf{v}\label{eq:Pmv}\end{equation} $$
 
