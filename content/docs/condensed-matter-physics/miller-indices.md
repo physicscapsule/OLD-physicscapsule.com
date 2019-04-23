@@ -2,7 +2,6 @@
 title: "Miller Indices"
 weight: 4
 ---
-# Miller indices
 # Reference axes
 
 Like with any three-dimensional object we use three reference axes to describe the geometry of a crystal. The choice of these axes is not always arbitrary; rather we choose axes with respect to key geometric properties of the crystal in question, which also means they vary by crystal. For example, for cubic crystals, we simply pick three mutually perpendicular axes, each parallel to one of three pairs of opposite faces on the cube. For a triclinic system picking three axes based on similar reasoning would give us three oblique axes, none of which form the familiar $ 90^\circ $angle. It is important to remember that mutual perpendicularity is not a norm---there is no need for it to be. It is far more important that the axes we choose represent the symmetry inherent in our crystal.
