@@ -31,11 +31,7 @@
 */
   
 @font-face {font-family: 'PalatinoeText';font-weight: normal;font-style: normal;src: url('webfonts/392726_0_0.eot');src: url('webfonts/392726_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/392726_0_0.woff2') format('woff2'),url('webfonts/392726_0_0.woff') format('woff'),url('webfonts/392726_0_0.ttf') format('truetype'),url('webfonts/392726_0_0.svg#wf') format('svg');}
- 
-  
 @font-face {font-family: 'PalatinoeText';font-weight: bold;font-style: normal;src: url('webfonts/392726_1_0.eot');src: url('webfonts/392726_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/392726_1_0.woff2') format('woff2'),url('webfonts/392726_1_0.woff') format('woff'),url('webfonts/392726_1_0.ttf') format('truetype'),url('webfonts/392726_1_0.svg#wf') format('svg');}
- 
-  
 @font-face {font-family: 'PalatinoeText';font-weight: normal;font-style: italic;src: url('webfonts/392726_2_0.eot');src: url('webfonts/392726_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/392726_2_0.woff2') format('woff2'),url('webfonts/392726_2_0.woff') format('woff'),url('webfonts/392726_2_0.ttf') format('truetype'),url('webfonts/392726_2_0.svg#wf') format('svg');}
 
 // VARIABLES
@@ -227,6 +223,12 @@ article > h1:first-of-type, header h1 {
 	font-weight: 700 !important;
 }
 
+.book-header strong {
+	font-size: 1.25em;
+	font-weight: 700 !important;
+	font-family: $sans;
+}
+
 article h2 {
 	font-size: 1em;
 	font-weight: 600 !important;
@@ -353,5 +355,10 @@ code.has-jax {
 		max-width: 60%;
 		float: right;
 		padding-left: 5%;
+	}
+}
+@media screen and (max-width: 41rem) {
+	article>h1:first-of-type, header h1 {
+		display: none;
 	}
 }
