@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{{- partial "subject/shared" -}}
+<html>
+
+<head>
+  {{ partial "subject/html-head" . }}
+  {{ partial "subject/inject/head" . }}
+</head>
+
+<body>
+  <main class="flex justify-center">
+      <h1>404 Not Found</h1>
+  </main>
+
+  {{ partial "subject/inject/body" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+</body>
+
+</html>

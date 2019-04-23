@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{- template "title" . }} | {{ .Site.Title -}}</title>
+
+<!-- Theme stylesheet, you can customize scss by creatig `assets/custom.scss` in your website -->
+<link rel="stylesheet" href="{{ "normalize.min.css" | relURL }}">
+{{ $styles := resources.Get "book.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+<!-- Favicon -->
+<link rel="icon" href="{{ "favicon.png" | relURL }}" type="image/x-icon">
+
+<!-- RSS -->
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title | default "" }}" />
+<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title | default "" }}" />
+{{ end }}
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png?v=Gvk0gJ3dOj">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png?v=Gvk0gJ3dOj">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png?v=Gvk0gJ3dOj">
+<link rel="manifest" href="/static/favicons/manifest.json?v=Gvk0gJ3dOj">
+<link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg?v=Gvk0gJ3dOj" color="#de0303">
+<link rel="shortcut icon" href="/static/favicons/favicon.ico?v=Gvk0gJ3dOj">
+<meta name="msapplication-config" content="/static/favicons/browserconfig.xml?v=Gvk0gJ3dOj">
+<meta name="theme-color" content="#de0303">

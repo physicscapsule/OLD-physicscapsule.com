@@ -1,0 +1,23 @@
+baseURL = "https://physicscapsule.com/"
+title = "Physics Capsule"
+languageCode = "en-gb"
+theme = "hugo-book"
+disableKinds = [
+  "taxonomy",
+  "taxonomyTerm"
+]
+disablePathToLower = true
+pygmentsStyle = "monokailight"
+pygmentsCodeFences = true
+
+[params]
+  customCSS = ["custom.css",]
+  BookShowToC = true
+  BookSection = "subject"
+  BookEnableJS = true
+  BookMenuBundle = "/menu"
+  BookMenuBundleActiveLinkColor = "#de0303"
+  BookRepo = "https://github.com/alex-shpak/hugo-book"
+  BookEditPath = "edit/master/exampleSite/content"
+  BookDateFormat = "2 January 2006"
+  enableGitInfo = true
