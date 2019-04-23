@@ -1,7 +1,0 @@
-{{- template "hrefhack" . -}}
-{{ with .Site.GetPage .Site.Params.BookMenuBundle }}
-  {{ .Content | replaceRE "<ul>" "<ul class=\"listing\">" | replaceRE "<li>" "<li class=\"entries\">" | safeHTML }}
-{{ end }}
-{{ if .Site.Params.BookEnableJS }}
-  {{- template "jsmenu" . -}}
-{{ end }}
