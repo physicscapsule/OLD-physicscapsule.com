@@ -6,7 +6,7 @@ weight: 10
 type: subject
 ---
 
-Over three years ago we started **Physics Capsule** with an idea that had excited us immensely. It took us these three years, however, to fully shape that idea. On the way we have had guest authors, friendly editors, lots of well-wishers and more people than ever giving us suggestions and ideas. We appreciate all of this and we realise that while our intentions with **Physics Capsule** have undoubtedly changed over the past four years our core purpose is now better defined than ever before.
+Over four years ago we started **Physics Capsule** with an idea that had excited us immensely. It took us these three years, however, to fully shape that idea. On the way we have had guest authors, friendly editors, lots of well-wishers and more people than ever giving us suggestions and ideas. We appreciate all of this and we realise that while our intentions with **Physics Capsule** have undoubtedly changed over the past four years our core purpose is now better defined than ever before.
 
 ## Major changes
 

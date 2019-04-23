@@ -13,3 +13,4 @@ headless: true
 - **Condensed matter physics**
   - [Miller indices]({{< relref "/subject/condensed-matter-physics/miller-indices.md" >}})
 - **Editorial**
+  - [Foreword (ed. 2)]({{< relref "/subject/editorial/second-edition" >}})
