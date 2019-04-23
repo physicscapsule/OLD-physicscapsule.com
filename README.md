@@ -1,5 +1,3 @@
 # Physics Capsule
-
 ## The best place for you to learn academic physics online and for free.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8a9ac73a-64c1-49c5-9e30-d1c97e12071c/deploy-status)](https://app.netlify.com/sites/physicscapsule/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a9ac73a-64c1-49c5-9e30-d1c97e12071c/deploy-status)](https://app.netlify.com/sites/physicscapsule/deploys) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/) [![made-with-mathjax](https://img.shields.io/badge/Made%20with-MathJax-1f425f.svg)](https://www.mathjax.org/) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
