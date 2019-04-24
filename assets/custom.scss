@@ -273,12 +273,41 @@ figcaption h4 + p {
 }
 
 .markdown blockquote {
-background: #edeff1;
-margin: 0 0 1.5em;
-padding: 1rem 1.25rem .75rem;
-font-size: 0.95em;
-border-left: 3px solid #dee2e6;
+	background: #edeff1;
+	margin: 0 0 1.5em;
+	padding: 1rem 1.25rem .75rem;
+	font-size: 0.95em;
+	border-left: 3px solid #dee2e6;
 }
+
+@-webkit-keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+article img.homeLogo {
+	min-width: 0;
+	max-width: 150px;
+	float: right;
+	-webkit-animation: rotate 20s infinite linear;
+	animation: rotate 20s infinite linear;
+	margin: -0.25em 0 1.5em 0.77em;
+}
+
+#TableOfContents
 
 .book-git-footer {
 	font-family: $sans;
@@ -344,6 +373,15 @@ code.has-jax {
 .postIt span {
 	font-family: $serif;
 	font-weight: bold;
+}
+
+.postIt a img {
+	transition-duration: 1s ease-in-out;
+}
+
+.postIt a:hover img {
+	transform: scale(1.02);
+	transition-duration: 1s ease-in-out;
 }
 
 .footnotes .MathJax_Display {
