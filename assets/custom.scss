@@ -216,6 +216,7 @@ article h1 {
 	font-size: 1em;
 	font-weight: 700 !important;
 	font-family: $sans;
+	margin: 2em 0 1em;
 }
 
 article > h1:first-of-type, header h1 {
@@ -310,6 +311,41 @@ code.has-jax {
 	font-size: 1.2em;
 }
 
+::-moz-selection {
+	background: #FDF8C0 !important;
+}
+::selection {
+	background: #FDF8C0 !important;
+}
+
+.postIt {
+	background: #FDF8C0;
+	padding: 0.2em 1.5em 0.2em;
+	font-family: $sans;
+	font-size: 0.85em;
+	box-shadow: -2px 2px 2px rgba(0,0,0,.1);
+	margin-top: 5vh;
+}
+
+.postIt .btn-container {
+	display: block!important;
+	white-space: nowrap;
+	min-width: 160px;
+	text-align: center;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.postIt .btn-container a span {
+	font-family: $sans !important;
+	font-weight: 700;
+}
+
+.postIt span {
+	font-family: $serif;
+	font-weight: bold;
+}
+
 .footnotes .MathJax_Display {
 	display: inline !important;
 }
@@ -360,5 +396,8 @@ code.has-jax {
 @media screen and (max-width: 41rem) {
 	article>h1:first-of-type, header h1 {
 		display: none;
+	}
+	aside:first-of-type nav ul {
+		opacity: 1;
 	}
 }
