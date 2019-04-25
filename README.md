@@ -1,10 +1,14 @@
-# Physics Capsule
-## The best place for you to learn academic physics online and for free.
+<p align="center">
+  <img width="77" src="https://www.dropbox.com/s/bxlm0p6sqzs6a5r/PhysCapGlobeLogo.jpg?raw=1" alt="Physics Capsule globe logo"><br/>
+  <img height="40" src="https://www.dropbox.com/s/6glubhjab3r5bcr/PhysCap-Palatino.png?raw=1" alt="Physics Capsule wordmark">
+<br/>
+  <h1>Welcome to the open-source Physics Capsule project</h1>
+<br/>
+  <h2>The best place for you to learn academic physics online and for free.</h2>
+</p>
+<hr/>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8a9ac73a-64c1-49c5-9e30-d1c97e12071c/deploy-status)](https://app.netlify.com/sites/physicscapsule/deploys) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![made-with-latex](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/) [![made-with-mathjax](https://img.shields.io/badge/Made%20with-MathJax-1f425f.svg)](https://www.mathjax.org/) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-# Welcome to the open-source Physics Capsule project
-
-<img src="PhysicsCapsuleGlobeLogo.png" class="homeLogo">
 
 We are on a mission to make academic physics accessible to everyone online and for free. Start learning physics by browsing topics that interest you; or contribute to the project.
 
