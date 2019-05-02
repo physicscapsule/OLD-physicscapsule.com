@@ -8,6 +8,8 @@ headless: true
   - [Jacobi identity]({{< relref "/docs/classical-mechanics/jacobi-identity-poisson-brackets.md" >}})
 - **Quantum mechanics**
   - [Classical vs quantum states]({{< relref "/docs/quantum-mechanics/classical-vs-quantum-states.md" >}})
+- **Nuclear physics**
+  - [Impact parameter]({{< relref "/docs/nuclear-physics/impact-parameter.md" >}})
 - **Relativity**
   - [Parallel transport and geodesics]({{< relref "/docs/relativity/parallel-transport-geodesics.md" >}})
 - **Condensed matter physics**

@@ -3,7 +3,6 @@ title: "Impact parameter"
 date: 2019-05-02T16:40:01+05:30
 ---
 
-# Impact parameter
 
 When two objects collide, they apply forces on one another and in general deflect from their original paths. The nature of such a deflection depends on what kind of forces are at play during the collision. And the extent of the deflection is decided by the direction in which the objects moved (straight towards one another for a head-on collision or at some oblique angle) and how fast they travelled when they set off towards one another. A very useful quantity in this regard, that'll help us know the extent of a possible deflection, even before the collision occurs, is the **impact parameter**.
 
@@ -33,7 +32,7 @@ Let us denote the scattering angle by $\theta$. This is the angle between the st
 
 From geometry it is evident that $b=R\sin\alpha$. Also, supplementarity requires that $\alpha+\alpha+\theta=180^o$ or $\alpha=90^o-{\theta\over2}$. Hence,
 \begin{align*}
-b&=R\sin\left(90^o-{\theta\over2}\right)
+b&=R\sin\left(90^o-{\theta\over2}\right)\\
 b&=R\cos\left({\theta\over2}\right)
 \end{align*}
 
