@@ -33,8 +33,8 @@ Let us denote the scattering angle by $\theta$. This is the angle between the st
 From geometry it is evident that $b=R\sin\alpha$. Also, supplementarity requires that $\alpha+\alpha+\theta=180^o$ or $\alpha=90^o-{\theta\over2}$. Hence,
 <div>
 \begin{align*}
-b&=R\sin\left(90^o-{\theta\over2}\right)\\
-b&=R\cos\left({\theta\over2}\right)
+b&=R\sin\left(90^o-{\theta\over 2}\right)\\
+b&=R\cos\left({\theta\over 2}\right)
 \end{align*}
 </div>
 
