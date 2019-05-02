@@ -31,10 +31,12 @@ In general when a projectile collides elastically with the target, the projectil
 Let us denote the scattering angle by $\theta$. This is the angle between the straight line path of the projectile before the collision and its new deflected path after collision. Let $b$ be the impact parameter. Now, the projectile bounces off the target in such a way that the angle that the incident path makes with a line stretching through the centre of the sphere through the point of impact, equals the angle made by the deflected path with the same line through the centre. Let us call this angle $\alpha$.
 
 From geometry it is evident that $b=R\sin\alpha$. Also, supplementarity requires that $\alpha+\alpha+\theta=180^o$ or $\alpha=90^o-{\theta\over2}$. Hence,
+<div>
 \begin{align*}
 b&=R\sin\left(90^o-{\theta\over2}\right)\\
 b&=R\cos\left({\theta\over2}\right)
 \end{align*}
+</div>
 
 This is the relation between the impact parameter $b$ and the scattering angle $\theta$ that we were looking for. Let's test it. In case of a head-on collision, we have $\theta=180^o$. Then the impact parameter must be $b=R\cos(180)$. This means, $b=R\cos90^o=0$. Which was expected. $b=0$ means the path of the projectile coincides with the line connecting with the centre of the target, leading to a head-on collision.
 
