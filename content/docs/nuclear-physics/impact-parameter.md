@@ -31,6 +31,7 @@ In general when a projectile collides elastically with the target, the projectil
 Let us denote the scattering angle by $\theta$. This is the angle between the straight line path of the projectile before the collision and its new deflected path after collision. Let $b$ be the impact parameter. Now, the projectile bounces off the target in such a way that the angle that the incident path makes with a line stretching through the centre of the sphere through the point of impact, equals the angle made by the deflected path with the same line through the centre. Let us call this angle $\alpha$.
 
 From geometry it is evident that $b=R\sin\alpha$. Also, supplementarity requires that $\alpha+\alpha+\theta=180^o$ or $\alpha=90^o-{\theta\over2}$. Hence,
+
 <div>
 \begin{align*}
 b&=R\sin\left(90^o-{\theta\over 2}\right)\\
