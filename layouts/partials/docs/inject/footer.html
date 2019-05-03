@@ -36,3 +36,11 @@ $(document).ready(function() {
 //    });
 });
 </script>
+
+{{ $fastclickJS := resources.Get "fastclick.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $fastclickJS.RelPermalink }}"></script>
+	<script type="text/javascript">
+		$(function() {
+			FastClick.attach(document.body);
+		});
+	</script>
