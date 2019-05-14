@@ -1,35 +1,4 @@
-/* Import main typeface ‘Palatino’ */
-
-/**
- * @license
- * MyFonts Webfont Build ID 3745574, 2019-04-10T14:53:18-0400
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- * 
- * Webfont: PalatinoeText by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/palatino-etext/regular/
- * 
- * Webfont: PalatinoeText-Bold by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/palatino-etext/bold/
- * 
- * Webfont: PalatinoeText-Italic by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/palatino-etext/italic/
- * 
- * 
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3745574
- * Licensed pageviews: 250,000
- * Webfonts copyright: &#x00A9; 2012 Linotype Corp. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype Corp. This typeface is original artwork of Hermann Zapf and Akira Kobayashi. Th
- * 
- * © 2019 MyFonts Inc
-*/
-  
-@font-face {font-family: 'PalatinoeText';font-weight: normal;font-style: normal;src: url('webfonts/392726_0_0.eot');src: url('webfonts/392726_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/392726_0_0.woff2') format('woff2'),url('webfonts/392726_0_0.woff') format('woff'),url('webfonts/392726_0_0.ttf') format('truetype'),url('webfonts/392726_0_0.svg#wf') format('svg');}
-@font-face {font-family: 'PalatinoeText';font-weight: bold;font-style: normal;src: url('webfonts/392726_1_0.eot');src: url('webfonts/392726_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/392726_1_0.woff2') format('woff2'),url('webfonts/392726_1_0.woff') format('woff'),url('webfonts/392726_1_0.ttf') format('truetype'),url('webfonts/392726_1_0.svg#wf') format('svg');}
-@font-face {font-family: 'PalatinoeText';font-weight: normal;font-style: italic;src: url('webfonts/392726_2_0.eot');src: url('webfonts/392726_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/392726_2_0.woff2') format('woff2'),url('webfonts/392726_2_0.woff') format('woff'),url('webfonts/392726_2_0.ttf') format('truetype'),url('webfonts/392726_2_0.svg#wf') format('svg');}
+@import "fonts";
 
 // VARIABLES
 $serif: PalatinoeText;
